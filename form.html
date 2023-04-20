@@ -415,6 +415,15 @@
 
                     <form class="form" action="https://formsubmit.co/2159ab33c05892f928982819b08ec988" method="POST" enctype="text/plain">
                         <!--this is the site's address:: https://tntb2.github.io/formsubmition/form.html-->
+                        <!--HoneyPot-->
+                        <input type="text" name="_Honey" style="display: none;">
+
+                        <!--Disable captcha-->
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <!--adding a success page after form subpition-->
+                        <input type="hidden" name="_next" value="https://tntb2.github.io/formsubmition/formsubmition.html">
+
                         <label>Name & surname</label>
                         <input type="text" class="name" name="Name&nbsp;&&nbsp;Last&nbsp;Name" placeholder="Jane Doe" required>
                         <br><br>
