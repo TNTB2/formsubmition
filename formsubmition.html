@@ -65,13 +65,14 @@
         }
 
         .form p {
-            color:#cf2c91;
+            color: #cf2c91;
             font-weight: 800;
             font-style: italic;
             font-size: medium;
             background-color: #000000b4;
             padding: 2%;
         }
+
         .form input,
         .form textarea {
             float: right;
@@ -279,9 +280,10 @@
             background-color: #000000;
             border-radius: 50px;
             border: solid 2px #1c4da1;
-            padding:20px;
+            padding: 20px;
             margin: 10px;
         }
+
         .col2 a:hover {
             background-color: #ffffffa6;
         }
@@ -421,19 +423,22 @@
                     <h3>Fill in the below form to audibly enhance your
                         establishment & we'll get back to you:</h3>
 
-                    <form class="form" action="https://formsubmit.co/2159ab33c05892f928982819b08ec988" method="POST" enctype="text/plain">
+                    <!--this form sends an email to my direct email adress while hiding my naked email adress-->
+                    <form class="form" action="https://formsubmit.co/2159ab33c05892f928982819b08ec988" method="POST">
                         <!--this is the site's address:: https://tntb2.github.io/formsubmition/form.html-->
                         <!--HoneyPot-->
-                        <input type="text" name="_Honey" style="display: none;">
+                        <input type="text" name="_honey" style="display: none;">
 
                         <!--Disable captcha-->
                         <input type="hidden" name="_captcha" value="false">
 
                         <!--adding a success page after form subpition-->
-                        <input type="hidden" name="_next" value="https://tntb2.github.io/formsubmition/formsubmition.html">
+                        <input type="hidden" name="_next"
+                            value="https://tntb2.github.io/formsubmition/formsubmition.html">
 
                         <label>Name & surname</label>
-                        <input type="text" class="name" name="Name&nbsp;&&nbsp;Last&nbsp;Name" placeholder="Jane Doe" required>
+                        <input type="text" class="name" name="Name&nbsp;&&nbsp;Last&nbsp;Name" placeholder="Jane Doe"
+                            required>
                         <br><br>
                         <label>Email</label>
                         <input type="email" class="email" name="E-mail" placeholder="JaneDoe@gmail.com" required>
@@ -442,7 +447,8 @@
                         <input type="number" class="number" name="Phone" placeholder="0836057751" required>
                         <br><br>
                         <label>Notes / comments</label>
-                        <textarea type="textarea" class="comment" name="Comment,&nbsp;Questions " placeholder="Comment here..." required></textarea>
+                        <textarea type="textarea" class="comment" name="Comment,&nbsp;Questions "
+                            placeholder="Comment here..." required></textarea>
                         <br><br><br>
 
                         <p>Thank you for reaching out to us, we'll be in touch soon! :&#41;</p>
